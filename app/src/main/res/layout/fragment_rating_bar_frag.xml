@@ -1,0 +1,35 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.navigationapk.RatingBar_frag">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/serviceapp"/>
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="250dp"
+        android:layout_marginLeft="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:background="#fff" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="100dp"
+        android:textSize="20dp"
+        android:text="TextView" />
+
+
+</FrameLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/contect_frag"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.hp.theserviceapp.Home_page"
+    tools:showIn="@layout/app_bar_home_page">
+
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:background="#BCC6"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <AdapterViewFlipper
+            android:id="@+id/AVF"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true" />
+
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="410dp"
+            android:layout_height="316dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/AVF"
+            android:textAlignment="center"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="-9dp"
+            tools:layout_editor_absoluteY="194dp"></ListView>
+</RelativeLayout>
